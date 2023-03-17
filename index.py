@@ -118,6 +118,7 @@ class Product:
         self.message["text"] = f"Record {name} Update succesfuly"
         self.get_products()
 
+
 if __name__ == '__main__':
         window = Tk()
         application = Product(window)
